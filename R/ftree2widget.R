@@ -22,7 +22,7 @@ ftree2widget<-function(DF, height = NULL, width = NULL)  {
 			width = width,
 			height = height,
 			htmlwidgets::sizingPolicy(padding = 10, browser.fill = TRUE),
-			package = "FaultTree.widget"
+			package = "FaultTree1.widget"
 		)
 	}else{
 		# create widget2
@@ -32,7 +32,7 @@ ftree2widget<-function(DF, height = NULL, width = NULL)  {
 			width = width,
 			height = height,
 			htmlwidgets::sizingPolicy(padding = 10, browser.fill = TRUE),
-			package = "FaultTree.widget"
+			package = "FaultTree1.widget"
 		)
 	}	
 }
